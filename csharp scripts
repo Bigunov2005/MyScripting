@@ -1,0 +1,39 @@
+using System.Collection;
+using UnityEngine;
+
+public class Deutsch_Fahr: MonoBehaviour {
+
+public GameObject Cub;
+
+
+   void Start () {
+   Cub.SetActive (false);
+   }
+
+   void Update () {
+   if (Cub.activeSelf) {
+       Cub.SetActive (false);
+   } else {
+       Cub.SetActive (true);
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
